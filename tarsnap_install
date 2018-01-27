@@ -1,0 +1,3 @@
+#!/bin/sh
+
+apt-get install gcc libc6-dev make libssl-dev zlib1g-dev e2fslibs-dev
