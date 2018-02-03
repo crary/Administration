@@ -4,3 +4,5 @@
 
 cut -d: -f1 /etc/passwd
 
+# Create password
+echo -n @ && cat /dev/urandom | env LC_CTYPE=C tr -dc [:alnum:] | head -c 15 && echo
