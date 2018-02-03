@@ -1,0 +1,6 @@
+# show a list of all users on sys
+# [Cut Cmd] Print selected fields from each input FILE to standard output
+# [Syntax] cut -f list [-s] [-d delim] [file ...]
+
+cut -d: -f1 /etc/passwd
+
