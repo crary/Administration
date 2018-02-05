@@ -153,3 +153,6 @@ find . -type f -exec chmod 644 {} \;
 
 #restart services
 systemctl restart php7.0-fpm nginx
+
+#Change permissions on wp-config
+chmod 640 /home/yourusername/public_html/wp-config.php
